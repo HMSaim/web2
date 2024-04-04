@@ -1,0 +1,152 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+height:100%;
+width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    width: 100%;
+    height: 80px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 0 30px;
+}
+#nav h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    padding: 18px;
+    color: white;
+    border-radius: 50%;
+    transition: all 1s ease ;
+    
+}
+#nav:hover i{
+    
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    
+} 
+#center{
+
+    width: 100%;
+    padding:40px  0 0 40px;
+
+}
+#center h1{
+    font-size: 45px;
+    
+    font-weight: 600;
+    
+    line-height: 45px;
+}
+#center-in{
+    
+    display: flex;
+    
+    justify-content: space-between;
+
+margin-top: 25px;
+}
+#center p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25px;
+}
+#right{
+    width: 20%;
+    
+
+}
+.elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    padding: 20px 0;
+    border-top:3px solid black ;
+}
+
+.elem a{
+    text-decoration: none;
+    font-size: 20px;
+color: black;
+font-weight: 500;
+}
+.elem i{
+font-size: 20px;
+font-weight: 600;
+opacity: 0;
+}
+.elem:hover{
+background-color: rgb(210, 213, 216);
+}
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+#menu{
+    display: none;
+}
+#bottom{
+    margin-top: 0px;
+    height: 37%;
+    width: 100%;
+    
+    background-image: url(https://media.istockphoto.com/id/1448474025/photo/black-business-woman-talking-on-a-phone-call-in-an-office.jpg?s=612x612&w=0&k=20&c=6vYocfE0E_9jhzQkoFvsaoOLiU31MUjf8TgCJgavlnA=);
+background-size: cover;
+background-position: top;
+}
+@media (max-width:600px) {
+    #center{
+
+        width: 100%;
+        padding:5px 0 0 0;
+    
+    }
+    #center h1{
+        margin-left: 18px;
+        font-size: 40px;
+    }
+
+
+#right{
+    display: none;
+    
+}
+#menu{
+    display: initial;
+   margin-left: 90%;
+    font-size: 15px;
+    border-radius: 40%;
+    background-color: black;
+    color: white;
+    padding: 6px;
+    
+}
+#bottom{
+    margin-top: 7px;
+    height: 38%;
+    
+    
+}
+}
